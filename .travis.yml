@@ -3,9 +3,7 @@ sudo: required
 python:
   - "2.7"
 # command to install dependenciec
-before_install:
-  - pip install requests
-  - pip install beautifulsoup4
+install: "pip install -r requeriments.txt"
 # command to run tests
 script:
   - python apiAig.py
