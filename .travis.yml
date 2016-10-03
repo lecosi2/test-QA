@@ -4,5 +4,6 @@ python:
   - "2.7"
 # command to install dependencies
 install: "pip install requests"
+install: "pip install beautifulsoup4"
 # command to run tests
 script: python apiAig.py
