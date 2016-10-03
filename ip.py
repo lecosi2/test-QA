@@ -16,7 +16,7 @@ class Ip(unittest.TestCase):
         self.driver.implicitly_wait(30)
         self.base_url = "http://www.cual-es-mi-ip.net/"
         self.verificationErrors = []
-        self.accept_next_alert = True
+        self.accept_next_alert = False
 
     def test_ip(self):
         driver = self.driver
