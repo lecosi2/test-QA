@@ -5,6 +5,6 @@ r = requests.get('https://www.cotizadoresgenerales.com/wsCotizaAutos/CotizaAutos
 status = r.status_code
 print ("STATUS =",status)
 if status == 200 :
-	print "AIG esta UP"
+	print "AIG UP"
 else:
     print ("<--> se putio AIG y que tales <-->")
