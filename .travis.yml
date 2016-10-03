@@ -2,7 +2,11 @@ language: python
 sudo: required
 python:
   - "2.7"
-# command to install dependencies
-install: "pip install requests && pip install beautifulsoup4"
+# command to install dependenciec
+before_install:
+  - pip install requests
+  - pip install beautifulsoup4
 # command to run tests
-script: python apiAig.py
+script:
+  - python apiAig.py
+  - python upLamerify.py
