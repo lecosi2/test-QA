@@ -1,0 +1,10 @@
+language: python
+sudo: required
+python:
+  - "2.7"
+# command to install dependenciec
+install: "pip install -r requeriments.txt"
+# command to run tests
+script:
+  - python apiAig.py
+  - python upLamerify.py
